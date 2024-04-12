@@ -1,6 +1,9 @@
 @startuml UrbanTransportPlanning
 
 class Graph {
+    Dictionary{Dictionary} graph_dict
+    Array[Array[]] edges
+    __
     Graph (Array[Array[]] data, bool isHeader) 
     __
     void print_graph()
