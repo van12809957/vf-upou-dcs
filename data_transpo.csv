@@ -1,0 +1,8 @@
+﻿source,destination,mode,traveltime,destination_type
+A,ABC Elementary School,car,15,School
+A,Smith Hospital,car,7,Hospital
+B,ABC Elementary School,car,10,School
+B,Smith Hospital,walk,20,Hospital
+C,ABC Elementary School,car,7,School
+C,Barangay KNL Tricycle Terminal,walk,5,Tricycle Terminal
+T,ABC Elementary School,tricycle,3,School

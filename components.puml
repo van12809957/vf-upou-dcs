@@ -1,0 +1,17 @@
+@startuml UrbanTransportPlanning
+
+class Graph {
+    Graph (Array[Array[]] data, bool isHeader) 
+    __
+    void print_graph()
+} 
+
+Graph "1"*-- "many" Node : contains 
+
+class Node {
+   Dictionary destination_dict
+   __
+   addDestination(Dictionary data_dict)
+}
+
+@enduml 
